@@ -2,11 +2,11 @@ version = 1
 
 [[analyzers]]
 name = "test-coverage"
-enabled = true
+enabled = false
 
 [[analyzers]]
 name = "sql"
-enabled = true
+enabled = false
 
 [[analyzers]]
 name = "csharp"
@@ -14,14 +14,14 @@ enabled = true
 
 [[analyzers]]
 name = "docker"
-enabled = true
+enabled = false
 
   [analyzers.meta]
   dockerfile_paths = ["docker/Dockerfile"]
 
 [[analyzers]]
 name = "rust"
-enabled = true
+enabled = false
 
   [analyzers.meta]
   msrv = "1.30.0"
@@ -39,7 +39,7 @@ enabled = true
 
 [[analyzers]]
 name = "shell"
-enabled = true
+enabled = false
 
 [[analyzers]]
 name = "terraform"
@@ -88,56 +88,56 @@ enabled = true
 
 [[transformers]]
 name = "dotnet-format"
-enabled = true
+enabled = false
 
 [[transformers]]
 name = "rustfmt"
-enabled = true
+enabled = false
 
 [[transformers]]
 name = "php-cs-fixer"
-enabled = true
+enabled = false
 
 [[transformers]]
 name = "google-java-format"
-enabled = true
+enabled = false
 
 [[transformers]]
 name = "prettier"
-enabled = true
+enabled = false
 
 [[transformers]]
 name = "rubocop"
-enabled = true
+enabled = false
 
 [[transformers]]
 name = "gofmt"
-enabled = true
+enabled = false
 
 [[transformers]]
 name = "black"
-enabled = true
+enabled = false
 
 [[transformers]]
 name = "isort"
-enabled = true
+enabled = false
 
 [[transformers]]
 name = "autopep8"
-enabled = true
+enabled = false
 
 [[transformers]]
 name = "yapf"
-enabled = true
+enabled = false
 
 [[transformers]]
 name = "gofumpt"
-enabled = true
+enabled = false
 
 [[transformers]]
 name = "standardrb"
-enabled = true
+enabled = false
 
 [[transformers]]
 name = "standardjs"
-enabled = true
+enabled = false
